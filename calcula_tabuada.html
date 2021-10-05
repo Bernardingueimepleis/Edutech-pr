@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    };
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    };
+var numeroInformado = parseInt(prompt("Qual o número que deseja multiplicar."))
+for(var multiplicador = 1; multiplicador<= 10; multiplicador = multiplicador + 1) {
+    mostra("<h1>" + (numeroInformado * multiplicador) + "</h1>")
+}    
+</script>
